@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    
+
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 50px;
+}
+
+div .content{
+    margin-top: 50px;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logingbtn{
+    margin-top: 10px;
+    margin-left:600px;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    color: #0c1313;
+    font-weight: 200;
+    border:2px solid #14cff0;
+    cursor: pointer;
+    transition: 1.5s;
+    background:#15f4f4;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#logingbtn:hover{
+    box-shadow: 0 5px 20px 0 #b3caca inset,0 5px 20px 0 #15f4f4;
+}
